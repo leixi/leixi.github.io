@@ -1,0 +1,490 @@
+body {
+  font-size: 16px;
+  font-family: "Gill Sans" sans-serif;
+}
+/*1220px*450px*/
+
+body#home {
+  background: #000;
+  font-color: #F2F1F1;
+  margin:0;
+  padding: 0;
+}
+
+#container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+div > a{
+  text-decoration: none;
+}
+
+
+.res,.mag,.por,.pai {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #000;
+  width: 478px;
+  height: 350px;
+  padding: 0;
+  list-style: none;
+}
+
+.res {
+  background-color: #FAAC58;
+  float: left;
+}
+
+
+.mag {
+  background-color: rgb(249,138,126);
+  float: right;
+}
+
+.por {
+
+  background-color: rgb(179,219,85);
+  float: left;
+}
+
+.pai {
+
+  background-color: rgb(126,191,247);
+  float: right;
+}
+
+
+div > a:visited {
+  color: #F2F1F1;
+}
+
+div > a:hover {
+  color: white;
+}
+
+
+#yellow-box,
+#green-box {
+  width: 320px;
+  height: 100px;
+}
+
+#red-box,
+#blue-box {
+  width: 300px;
+  height: 100px;
+}
+
+
+#yellow-box {
+  background: #FF8000;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#yellow-box a {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  font-size: 50px;
+}
+
+
+#red-box {
+  background: rgb(212,51,55);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#red-box a {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  font-size: 50px;
+}
+
+#green-box {
+  background: rgb(43,90,20);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#green-box a {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 50px;
+}
+
+#blue-box {
+  background: rgb(12,107,197);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#blue-box a {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 50px;
+}
+
+
+body#resume {
+  background:#F7F2E0;
+  font-family:"Minion Pro", serif;
+  color:#585858;
+  margin: 0;
+}
+
+
+#resume header {
+  text-align: left;
+  font-family: "Myriad Pro";
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+
+li > a {
+  display: inline-block;
+  padding: 6px;
+  text-decoration: none;
+  color: #FBF8EF;
+}
+
+
+#resume h1{
+  font-weight: 100;
+  color: #FBF8EF;
+  border: 1px solid #FF8000;
+  background: #FF8000;
+  padding-top: 7px;
+  padding-left: 7px;
+  font-size: 50px;
+}
+
+#education {
+  display: block;
+  float: left;
+  padding-bottom: 10px;
+  font-size: 16px;
+  width: 475px;
+}
+
+h4,
+p {
+  margin:0;
+}
+
+#contact{
+  display:block;
+  float: right;
+  width: 475px;
+  font-size: 16px;
+}
+
+#work {
+  display: block;
+  float: left;
+  clear: left;
+  padding-bottom: 10px;
+  font-size: 16px;
+  width: 475px;
+}
+
+
+#organizations {
+  float: right;
+  padding-bottom: 10px;
+  font-size: 16px;
+  width: 475px;
+}
+
+#organizations article {
+  margin-bottom:16px;
+}
+
+#skills{
+  display: block;
+  clear:none;
+  float:right;
+  width: 475px;
+  font-size: 16px;
+
+}
+
+h3{
+  font-size: 1.45em;
+  color:#FF8000;
+}
+
+#title1, #title2, #title3, #title4, #title5, #title6, #title7, #title8, #title9 {
+  color:#FAAC58;
+}
+
+img {
+  width: 100;
+  height: 100;
+}
+
+
+body#portfolio {
+  background: rgb(179,219,85);
+  font-family: "Minion Pro", serif;
+  margin:0;
+}
+
+
+#portfolio header {
+  text-align: left;
+  font-family: "Myriad Pro";
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+#portfolio h1{
+  font-weight: 100;
+  color: #FBF8EF;
+  border: 1px solid rgb(43,90,20);
+  background: rgb(43,90,20);
+  padding-top: 7px;
+  padding-left: 7px;
+  font-size: 50px;
+}
+
+
+body#magazine{
+  background: rgb(249,138,126);
+  font-family: "Minion Pro", serif;
+  margin:0;
+}
+
+
+#magazine header {
+  text-align: left;
+  font-family: "Myriad Pro";
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+#magazine h1{
+  font-weight: 100;
+  color: #FBF8EF;
+  border: 1px solid rgb(212,51,55);
+  background: rgb(212,51,55);
+  padding-top: 7px;
+  padding-left: 7px;
+  font-size: 50px;
+}
+
+body#paintings {
+  background: rgb(126,191,247);
+  font-family: "Minion Pro", serif;
+  margin:0;
+}
+
+
+#paintings header {
+  text-align: left;
+  font-family: "Myriad Pro";
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+#paintings h1{
+  font-weight: 100;
+  color: #FBF8EF;
+  border: 1px solid rgb(12,107,197);
+  background: rgb(12,107,197);
+  padding-top: 7px;
+  padding-left: 7px;
+  font-size: 50px;
+}
+
+#gohome, #gopai, #gores, #gopor, #gomag {
+  color: #ccc;
+  width: 77px;
+  list-style: none;
+  bottom: 83px;
+  border: 1px solid white;
+}
+
+
+
+#gopai {
+  background: rgb(126,191,247);
+  position: relative;
+  float: right;
+  padding: 1px;
+
+}
+
+#gomag {
+  background: rgb(249,138,126);
+  position: relative;
+  float: right;
+  padding: 1px;
+}
+
+#gores {
+  background: #FAAC58;
+  position: relative;
+  float: right;
+  padding: 1px;
+
+}
+
+#gopor {
+  background: rgb(179,219,85);
+  position:relative;
+  float: right;
+  padding: 1px;
+
+}
+
+#gohome {
+  background: #000;
+  position: relative;
+  float: right;
+  padding: 1px;
+
+}
+
+#mag1 {
+  margin-left: 80px;
+  padding-bottom:20px;
+  float: left;
+}
+
+#aboutmag {
+  padding: 10px;
+  margin-left: 505px;
+  margin-right:80px;
+  width: 355px;
+  height: 385px;
+  font-family: "Gill Sans" sans-serif;
+  font-size: 22px;
+  background: #F6CECE;
+}
+
+
+
+#mag2, #mag3, #mag4, #mag5 {
+  padding-left: 80px;
+  padding-top:30px;
+}
+
+#por1 {
+  padding-left: 50px;
+  float: left;
+}
+
+
+#aboutpor {
+  background: #ECF8E0;
+  padding: 10px;
+  margin-left: 515px;
+  margin-right: 50px;
+  font-family: "Gill Sans" sans-serif;
+  font-size: 22px;
+  width: 415px;
+  height: 275px;
+}
+
+
+
+
+
+.top {
+  clear: both;
+  overflow: hidden;
+}
+
+
+
+
+#por2, #por3, #por4, #por5, #por6 {
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+#por2 {
+  float: left;
+}
+
+#por4 {
+  float: left;
+
+}
+
+
+#aboutani {
+  float: right;
+  clear: left;
+  padding: 10px;
+  max-width: 400px;
+  font-size: 22px;
+  margin-top: 50px;
+}
+
+
+#landscape {
+  padding: 30px;
+  float: left;
+}
+
+
+#aboutlan {
+  padding: 10px;
+  margin-left:515px;
+  margin-right: 50px;
+  font-size: 22px;
+  font-family: "Gill Sans" sans-serif;
+  background:#CEE3F6;
+}
+
+.ania{
+  clear: both;
+  overflow: hidden;
+}
+
+#animal {
+  padding: 30px;
+  float: left;
+}
+
+#aboutani {
+  padding: 10px;
+  margin-left:515px;
+  margin-right: 50px;
+  font-size: 22px;
+  font-family: "Gill Sans" sans-serif;
+  background:#CEE3F6;
+}
+
+.h {
+  font-size: 50px;
+  padding-left: 520px;
+}
+
+#pdf1 {
+  color: rgb(212,51,55);
+  float: right;
+  padding: 30px;
+}
+
+#pdf2 {
+  color: rgb(43,90,20);
+  float: right;
+  padding: 30px;
+}
