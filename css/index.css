@@ -19,6 +19,7 @@ body#home {
 div > a{
   text-decoration: none;
   color: #F2F1F1;
+
 }
 
 
@@ -387,7 +388,13 @@ body#paintings {
 
 #por1 {
   padding-left: 50px;
+  margin-top : 110px;
   float: left;
+}
+
+.h {
+  font-size: 50px;
+  padding-left: 520px;
 }
 
 
@@ -401,9 +408,6 @@ body#paintings {
   width: 415px;
   height: 275px;
 }
-
-
-
 
 
 .top {
@@ -465,6 +469,7 @@ body#paintings {
 }
 
 #aboutani {
+  float: right;
   padding: 10px;
   margin-left:515px;
   margin-right: 50px;
@@ -473,10 +478,7 @@ body#paintings {
   background:#CEE3F6;
 }
 
-.h {
-  font-size: 50px;
-  padding-left: 520px;
-}
+
 
 #pdf1 {
   color: rgb(212,51,55);
