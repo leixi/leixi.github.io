@@ -173,7 +173,7 @@ li > a {
   font-size: 50px;
 }
 
-#education {
+.education {
   display: block;
   float: left;
   margin-top: 37px;
@@ -186,14 +186,14 @@ p {
   margin:0;
 }
 
-#contact{
+.contact{
   display:block;
   float: right;
   width: 475px;
   font-size: 16px;
 }
 
-#work {
+.work {
   display: block;
   float: left;
   clear: left;
@@ -203,7 +203,7 @@ p {
 }
 
 
-#organizations {
+.organizations {
   float: right;
   clear: right;
   padding-bottom: 10px;
@@ -212,12 +212,12 @@ p {
 
 }
 
-#organizations article {
+.organizations article {
   margin-bottom:16px;
 
 }
 
-#skills{
+.skills{
   display: block;
   clear:right;
 
@@ -318,7 +318,7 @@ body#paintings {
   font-size: 50px;
 }
 
-#gohome, #gopai, #gores, #gopor, #gomag {
+.gohome, .gopai, .gores, .gopor, .gomag {
   color: #ccc;
   width: 77px;
   list-style: none;
@@ -328,7 +328,7 @@ body#paintings {
 
 
 
-#gopai {
+.gopai {
   background: rgb(126,191,247);
   position: relative;
   float: right;
@@ -336,14 +336,14 @@ body#paintings {
 
 }
 
-#gomag {
+.gomag {
   background: rgb(249,138,126);
   position: relative;
   float: right;
   padding: 1px;
 }
 
-#gores {
+.gores {
   background: #FAAC58;
   position: relative;
   float: right;
@@ -351,7 +351,7 @@ body#paintings {
 
 }
 
-#gopor {
+.gopor {
   background: rgb(179,219,85);
   position:relative;
   float: right;
@@ -359,7 +359,7 @@ body#paintings {
 
 }
 
-#gohome {
+.gohome {
   background: #000;
   position: relative;
   float: right;
