@@ -142,6 +142,7 @@ body#resume {
   font-family:"Minion Pro", serif;
   color:#585858;
   margin: 0;
+
 }
 
 
@@ -204,21 +205,25 @@ p {
 
 #organizations {
   float: right;
+  clear: right;
   padding-bottom: 10px;
   font-size: 16px;
   width: 475px;
+
 }
 
 #organizations article {
   margin-bottom:16px;
+
 }
 
 #skills{
   display: block;
-  clear:none;
-  float:right;
+  clear:right;
+
   width: 475px;
   font-size: 16px;
+  overflow: hidden;
 
 }
 
@@ -530,4 +535,21 @@ font-weight: 400;
   color: rgb(43,90,20);
   float: right;
   padding: 30px;
+}
+
+footer{
+  clear: both;
+  font-size: 90%;
+  margin-left: 900px;
+  margin-bottom: 50px;
+}
+
+
+.print{
+  clear: both;
+}
+
+.print a {
+  text-decoration:none;
+  color: #FF8000;
 }
