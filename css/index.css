@@ -175,7 +175,7 @@ li > a {
 #education {
   display: block;
   float: left;
-  padding-bottom: 10px;
+  margin-top: 37px;
   font-size: 16px;
   width: 475px;
 }
@@ -368,17 +368,23 @@ body#paintings {
   float: left;
 }
 
-#aboutmag {
-  padding: 10px;
-  margin-left: 505px;
+.aboutmag {
+  padding: 15px 20px;
+  padding-top: 15px;
+  padding-left: 25px;
+  margin-left: 480px;
   margin-right:80px;
   width: 355px;
-  height: 385px;
+  height: 487px;
   font-family: "Gill Sans" sans-serif;
   font-size: 22px;
   background: #F6CECE;
 }
 
+.aboutmag span {
+  font-size: 50px;
+  font-weight: 400;
+}
 
 
 #mag2, #mag3, #mag4, #mag5 {
@@ -388,7 +394,6 @@ body#paintings {
 
 #por1 {
   padding-left: 50px;
-  margin-top : 110px;
   float: left;
 }
 
@@ -398,16 +403,42 @@ body#paintings {
 }
 
 
-#aboutpor {
+.aboutpor {
   background: #ECF8E0;
   padding: 10px;
-  margin-left: 515px;
+  padding-left:25px;
+  margin-left: 500px;
   margin-right: 50px;
   font-family: "Gill Sans" sans-serif;
   font-size: 22px;
   width: 415px;
-  height: 275px;
+  height: 305.5px;
 }
+
+.aboutpor span {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+/*
+padding: 15px 20px;
+padding-top:15px;
+max-width:390px;
+margin-top:66px;
+margin-left:480px;
+margin-right: 50px;
+font-size: 22px;
+font-family: "Gill Sans" sans-serif;
+background:#CEE3F6;
+
+
+.aboutlan span {
+font-size: 50px;
+font-weight: 400;
+
+}
+*/
+
 
 
 .top {
@@ -433,49 +464,58 @@ body#paintings {
 }
 
 
-#aboutani {
-  float: right;
-  clear: left;
-  padding: 10px;
-  max-width: 400px;
-  font-size: 22px;
-  margin-top: 50px;
-}
-
 
 #landscape {
   padding: 30px;
+  margin-top:10px;
   float: left;
 }
 
 
-#aboutlan {
-  padding: 10px;
-  margin-left:515px;
+.aboutlan {
+  padding: 15px 20px;
+
+  max-width:390px;
+  margin-top:73px;
+  margin-left:480px;
   margin-right: 50px;
   font-size: 22px;
   font-family: "Gill Sans" sans-serif;
   background:#CEE3F6;
+
 }
 
-.ania{
-  clear: both;
-  overflow: hidden;
+.aboutlan span {
+  font-size: 50px;
+  font-weight: 400;
+
 }
+
+
 
 #animal {
   padding: 30px;
   float: left;
+  clear: left;
 }
 
-#aboutani {
-  float: right;
-  padding: 10px;
-  margin-left:515px;
+.aboutani {
+  padding: 15px 20px;
+  padding-top:15px;
+  max-width:390px;
+  margin-top:66px;
+  margin-left:480px;
   margin-right: 50px;
   font-size: 22px;
   font-family: "Gill Sans" sans-serif;
   background:#CEE3F6;
+
+}
+
+.aboutani span {
+  font-size: 50px;
+  font-weight: 400;
+
 }
 
 
