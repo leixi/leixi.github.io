@@ -175,6 +175,7 @@ li > a {
 #education {
   display: block;
   float: none;
+  clear: both;
   padding-bottom: 10px;
   font-size: 16px;
   width: 475px;
@@ -188,6 +189,7 @@ p {
 #contact{
   display:block;
   float: none;
+  clear: both;
   width: 475px;
   font-size: 16px;
 }
@@ -195,7 +197,7 @@ p {
 #work {
   display: block;
   float: none;
-  clear: none;
+  clear: both;
   padding-bottom: 10px;
   font-size: 16px;
   width: 475px;
@@ -204,6 +206,7 @@ p {
 
 #organizations {
   float: none;
+  clear: both;
   padding-bottom: 10px;
   font-size: 16px;
   width: 475px;
@@ -215,7 +218,7 @@ p {
 
 #skills{
   display: block;
-  clear:none;
+  clear:both;
   float:none;
   width: 475px;
   font-size: 16px;
