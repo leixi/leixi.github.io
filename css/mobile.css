@@ -365,7 +365,8 @@ nav ul  {
 
 .gohome {
   background: #000;
-
+  width:75px;
+  margin-left:-30px;
   float: none;
   padding: 1px;
 
