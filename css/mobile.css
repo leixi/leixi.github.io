@@ -409,10 +409,11 @@ body#paintings {
   padding: 10px;
   margin-left: 50px;
   margin-right: 0px;
+  margin-top: -10px;
   font-family: "Gill Sans" sans-serif;
   font-size: 15px;
   width: 196px;
-  height: 315px;
+  height: auto;
 }
 
 
