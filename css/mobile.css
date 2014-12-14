@@ -316,51 +316,57 @@ body#paintings {
   font-size: 50px;
 }
 
-.gohome, .gopai, .gores, .gopor, .gomag {
+.gopai,.gopor,.gomag,.gores,.gohome {
   color: #ccc;
-  width: 77px;
+  width: 102px;
   list-style: none;
-  bottom: 83px;
-  border: 1px solid white;
+  margin-top: 83px;
+  margin-left: -40px;
+  display: inline-block;
+
 }
 
+nav ul  {
+  display: inline-block;
+}
 
 
 .gopai {
   background: rgb(126,191,247);
-  position: relative;
-  float: right;
+
+  float: none;
+
   padding: 1px;
 
 }
+.gopor {
+  background: rgb(179,219,85);
 
+  float: none;
+  padding: 1px;
+
+}
 .gomag {
   background: rgb(249,138,126);
-  position: relative;
-  float: right;
+
+  float: none;
   padding: 1px;
 }
 
 .gores {
   background: #FAAC58;
-  position: relative;
-  float: right;
+
+  float: none;
   padding: 1px;
 
 }
 
-.gopor {
-  background: rgb(179,219,85);
-  position:relative;
-  float: right;
-  padding: 1px;
 
-}
 
 .gohome {
   background: #000;
-  position: relative;
-  float: right;
+
+  float: none;
   padding: 1px;
 
 }
