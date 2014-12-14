@@ -13,7 +13,7 @@ body#home {
   padding: 0;
 }
 
-#container {
+.container {
   max-width: 320px;
   margin: 0 auto;
 }
@@ -27,8 +27,8 @@ div > a{
   position: relative;
   overflow: hidden;
   border: 1px solid #000;
-  width: 478px;
-  height: 350px;
+  width: 158px;
+  height: 280px;
   padding: 0;
   list-style: none;
 }
@@ -68,14 +68,14 @@ div > a:hover {
 
 #yellow-box,
 #green-box {
-  width: 320px;
-  height: 100px;
+  width: 127px;
+  height: 38px;
 }
 
 #red-box,
 #blue-box {
-  width: 300px;
-  height: 100px;
+  width: 121px;
+  height: 38px;
 }
 
 
@@ -88,9 +88,9 @@ div > a:hover {
 
 #yellow-box a {
   position: absolute;
-  bottom: 15px;
-  right: 15px;
-  font-size: 50px;
+  bottom: 7px;
+  right: 7px;
+  font-size: 20px;
 }
 
 
@@ -103,9 +103,9 @@ div > a:hover {
 
 #red-box a {
   position: absolute;
-  bottom: 15px;
-  left: 15px;
-  font-size: 50px;
+  bottom: 7px;
+  left: 7px;
+  font-size: 20px;
 }
 
 #green-box {
@@ -117,9 +117,9 @@ div > a:hover {
 
 #green-box a {
   position: absolute;
-  top: 15px;
-  right: 15px;
-  font-size: 50px;
+  top: 7px;
+  right: 7px;
+  font-size: 20px;
 }
 
 #blue-box {
@@ -131,9 +131,9 @@ div > a:hover {
 
 #blue-box a {
   position: absolute;
-  top: 15px;
-  left: 15px;
-  font-size: 50px;
+  top: 7px;
+  left: 7px;
+  font-size: 20px;
 }
 
 
@@ -143,6 +143,7 @@ body#resume {
   color:#585858;
   margin: 0;
 }
+
 
 
 #resume header {
@@ -176,9 +177,10 @@ li > a {
   display: block;
   float: none;
   clear: both;
+  margin-top: -80px;
   margin-left:15px;
   padding-bottom: 10px;
-  font-size: 12px;
+  font-size: 15px;
   width: 300px;
 }
 
@@ -193,7 +195,7 @@ p {
   clear: both;
   margin-left:15px;
   width: 300px;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .work {
@@ -203,7 +205,7 @@ p {
   padding-bottom: 10px;
   margin-left:15px;
   width: 300px;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 
@@ -213,7 +215,7 @@ p {
   padding-bottom: 10px;
   margin-left:15px;
   width: 300px;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .organizations article {
@@ -226,7 +228,7 @@ p {
   float:none;
   margin-left:15px;
   width: 300px;
-  font-size: 12px;
+  font-size: 15px;
 
 }
 
@@ -240,8 +242,8 @@ h3{
 }
 
 img {
-  width: 100;
-  height: 100;
+  width: 80%;
+  height: 80%;
 }
 
 
@@ -275,6 +277,9 @@ body#magazine{
   background: rgb(249,138,126);
   font-family: "Minion Pro", serif;
   margin:0;
+  width: 320px;
+  position: relative;
+
 }
 
 
@@ -323,40 +328,37 @@ body#paintings {
 
 .gopai,.gopor,.gomag,.gores,.gohome {
   color: #ccc;
-  width: 102px;
+  width: 60px;
   list-style: none;
-  margin-top: 35px;
-  margin-left: -40px;
+  margin-top: 50px;
+  margin-left: 0px;
   display: inline-block;
 
 }
 
-nav ul  {
-  display: inline-block;
-}
 
 
 .gopai {
   background: rgb(126,191,247);
-  float: none;
+  float: right;
   padding: 1px;
 
 }
 .gopor {
   background: rgb(179,219,85);
-  float: none;
+  float: right;
   padding: 1px;
 
 }
 .gomag {
   background: rgb(249,138,126);
-  float: none;
+  float: right;
   padding: 1px;
 }
 
 .gores {
   background: #FAAC58;
-  float: none;
+  float: right;
   padding: 1px;
 }
 
@@ -364,54 +366,54 @@ nav ul  {
   background: #000;
   width:75px;
   margin-left:-30px;
-  float: none;
+  float: right;
   padding: 1px;
 
 }
 
-#mag1 {
-  margin-left: 80px;
+.mag1 {
+  margin-left: 30px;
   padding-bottom:20px;
-  float: left;
+  margin-top: -100px;
+  float: none;
+  clear: both;
+
 }
 
-#aboutmag {
+.aboutmag {
+  margin-top:-25px;
+  margin-left: 30px;
   padding: 10px;
-  margin-left: 505px;
-  margin-right:80px;
-  width: 355px;
-  height: 385px;
+  float: left;
+  width: 212px;
+  height: 400px;
   font-family: "Gill Sans" sans-serif;
-  font-size: 22px;
+  font-size: 15px;
   background: #F6CECE;
 }
 
 
 
-#mag2, #mag3, #mag4, #mag5 {
-  padding-left: 80px;
-  padding-top:30px;
+.mag2, .mag3, .mag4, .mag5 {
+  display: none;
 }
 
 #por1 {
   padding-left: 50px;
-  float: left;
+  float: none;
 }
 
 
-#aboutpor {
+.aboutpor {
   background: #ECF8E0;
   padding: 10px;
-  margin-left: 515px;
-  margin-right: 50px;
+  margin-left: 50px;
+  margin-right: 0px;
   font-family: "Gill Sans" sans-serif;
-  font-size: 22px;
-  width: 415px;
-  height: 275px;
+  font-size: 15px;
+  width: 196px;
+  height: 315px;
 }
-
-
-
 
 
 .top {
@@ -437,48 +439,46 @@ nav ul  {
 }
 
 
-#aboutani {
-  float: right;
-  clear: left;
-  padding: 10px;
-  max-width: 400px;
-  font-size: 22px;
-  margin-top: 50px;
-}
-
 
 #landscape {
-  padding: 30px;
-  float: left;
+  padding-left: 45px;
+  float: none;
+  clear: both;
+  width: 90%;
+  height: auto;
 }
 
 
-#aboutlan {
+.aboutlan {
   padding: 10px;
-  margin-left:515px;
-  margin-right: 50px;
-  font-size: 22px;
+  margin-left:45px;
+  margin-right: 0px;
+  margin-top: -35px;
+  font-size: 15px;
   font-family: "Gill Sans" sans-serif;
   background:#CEE3F6;
-}
-
-.ania{
-  clear: both;
-  overflow: hidden;
+  width: 210px;
 }
 
 #animal {
-  padding: 30px;
-  float: left;
+  padding-left: 45px;
+  float: none;
+  width: 90%;
+  height: auto;
 }
 
-#aboutani {
+.aboutani {
   padding: 10px;
-  margin-left:515px;
-  margin-right: 50px;
-  font-size: 22px;
+  padding-top: 50px;
+  margin-left:45px;
+  margin-right: 0px;
+  margin-top: -80px;
+  margin-bottom: 30px;
+  font-size: 15px;
   font-family: "Gill Sans" sans-serif;
   background:#CEE3F6;
+  width: 210px;
+  height: 2px;
 }
 
 .h {
@@ -489,7 +489,9 @@ nav ul  {
 #pdf1 {
   color: rgb(212,51,55);
   float: right;
+
   padding: 30px;
+
 }
 
 #pdf2 {
