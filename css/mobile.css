@@ -1,7 +1,7 @@
 @media (max-width: 320px) {
 
 body {
-  font-size: 16px;
+  font-size: 12px;
   font-family: "Gill Sans" sans-serif;
 }
 /*1220px*450px*/
@@ -14,7 +14,7 @@ body#home {
 }
 
 #container {
-  max-width: 960px;
+  max-width: 320px;
   margin: 0 auto;
 }
 
@@ -176,9 +176,10 @@ li > a {
   display: block;
   float: none;
   clear: both;
+  margin-left:15px;
   padding-bottom: 10px;
-  font-size: 16px;
-  width: 475px;
+  font-size: 12px;
+  width: 300px;
 }
 
 h4,
@@ -190,8 +191,9 @@ p {
   display:block;
   float: none;
   clear: both;
-  width: 475px;
-  font-size: 16px;
+  margin-left:15px;
+  width: 300px;
+  font-size: 12px;
 }
 
 .work {
@@ -199,8 +201,9 @@ p {
   float: none;
   clear: both;
   padding-bottom: 10px;
-  font-size: 16px;
-  width: 475px;
+  margin-left:15px;
+  width: 300px;
+  font-size: 12px;
 }
 
 
@@ -208,8 +211,9 @@ p {
   float: none;
   clear: both;
   padding-bottom: 10px;
-  font-size: 16px;
-  width: 475px;
+  margin-left:15px;
+  width: 300px;
+  font-size: 12px;
 }
 
 .organizations article {
@@ -220,8 +224,9 @@ p {
   display: block;
   clear:both;
   float:none;
-  width: 475px;
-  font-size: 16px;
+  margin-left:15px;
+  width: 300px;
+  font-size: 12px;
 
 }
 
@@ -320,7 +325,7 @@ body#paintings {
   color: #ccc;
   width: 102px;
   list-style: none;
-  margin-top: 83px;
+  margin-top: 35px;
   margin-left: -40px;
   display: inline-block;
 
@@ -333,35 +338,27 @@ nav ul  {
 
 .gopai {
   background: rgb(126,191,247);
-
   float: none;
-
   padding: 1px;
 
 }
 .gopor {
   background: rgb(179,219,85);
-
   float: none;
   padding: 1px;
 
 }
 .gomag {
   background: rgb(249,138,126);
-
   float: none;
   padding: 1px;
 }
 
 .gores {
   background: #FAAC58;
-
   float: none;
   padding: 1px;
-
 }
-
-
 
 .gohome {
   background: #000;
