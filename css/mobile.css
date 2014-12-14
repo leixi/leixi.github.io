@@ -386,7 +386,7 @@ body#paintings {
   padding: 10px;
   float: left;
   width: 212px;
-  height: 400px;
+  height: auto;
   font-family: "Gill Sans" sans-serif;
   font-size: 15px;
   background: #F6CECE;
