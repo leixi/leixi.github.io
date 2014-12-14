@@ -2,7 +2,6 @@ body {
   font-size: 16px;
   font-family: "Gill Sans" sans-serif;
 }
-/*1220px*450px*/
 
 body#home {
   background: #000;
@@ -137,9 +136,7 @@ body#resume {
   font-family:"Minion Pro", serif;
   color:#585858;
   margin: 0;
-
 }
-
 
 
 /*resume header,"Leixi Wang"*/
@@ -199,29 +196,24 @@ p {
   width: 475px;
 }
 
-
 .organizations {
   float: right;
   clear: right;
   padding-bottom: 10px;
   font-size: 16px;
   width: 475px;
-
 }
 
 .organizations article {
   margin-bottom:16px;
-
 }
 
 .skills{
   display: block;
   clear:right;
-
   width: 475px;
   font-size: 16px;
   overflow: hidden;
-
 }
 
 h3{
@@ -238,13 +230,11 @@ img {
   height: 100;
 }
 
-
 body#portfolio {
   background: rgb(179,219,85);
   font-family: "Minion Pro", serif;
   margin:0;
 }
-
 
 #portfolio header {
   text-align: left;
@@ -264,13 +254,11 @@ body#portfolio {
   font-size: 50px;
 }
 
-
 body#magazine{
   background: rgb(249,138,126);
   font-family: "Minion Pro", serif;
   margin:0;
 }
-
 
 #magazine header {
   text-align: left;
@@ -295,7 +283,6 @@ body#paintings {
   font-family: "Minion Pro", serif;
   margin:0;
 }
-
 
 #paintings header {
   text-align: left;
@@ -323,14 +310,11 @@ body#paintings {
   border: 1px solid white;
 }
 
-
-
 .gopai {
   background: rgb(126,191,247);
   position: relative;
   float: right;
   padding: 1px;
-
 }
 
 .gomag {
@@ -345,7 +329,6 @@ body#paintings {
   position: relative;
   float: right;
   padding: 1px;
-
 }
 
 .gopor {
@@ -353,7 +336,6 @@ body#paintings {
   position:relative;
   float: right;
   padding: 1px;
-
 }
 
 .gohome {
@@ -361,10 +343,9 @@ body#paintings {
   position: relative;
   float: right;
   padding: 1px;
-
 }
 
-#mag1 {
+.mag1 {
   margin-left: 80px;
   padding-bottom:20px;
   float: left;
@@ -388,8 +369,7 @@ body#paintings {
   font-weight: 400;
 }
 
-
-#mag2, #mag3, #mag4, #mag5 {
+.mag2, .mag3, .mag4, .mag5 {
   padding-left: 80px;
   padding-top:30px;
 }
@@ -397,6 +377,7 @@ body#paintings {
 #por1 {
   padding-left: 50px;
   float: left;
+  margin-left:50px;
 }
 
 .h {
@@ -404,12 +385,12 @@ body#paintings {
   padding-left: 520px;
 }
 
-
 .aboutpor {
   background: #ECF8E0;
   padding: 10px;
-  padding-left:25px;
-  margin-left: 500px;
+  padding-left:20px;
+  padding-right:15px;
+  margin-left: 550px;
   margin-right: 50px;
   font-family: "Gill Sans" sans-serif;
   font-size: 22px;
@@ -422,38 +403,15 @@ body#paintings {
   font-weight: 400;
 }
 
-/*
-padding: 15px 20px;
-padding-top:15px;
-max-width:390px;
-margin-top:66px;
-margin-left:480px;
-margin-right: 50px;
-font-size: 22px;
-font-family: "Gill Sans" sans-serif;
-background:#CEE3F6;
-
-
-.aboutlan span {
-font-size: 50px;
-font-weight: 400;
-
-}
-*/
-
-
-
 .top {
   clear: both;
   overflow: hidden;
 }
 
-
-
-
 #por2, #por3, #por4, #por5, #por6 {
   padding-left: 50px;
   padding-top: 30px;
+  margin-left: 50px;
 }
 
 #por2 {
@@ -462,43 +420,36 @@ font-weight: 400;
 
 #por4 {
   float: left;
-
 }
-
-
 
 #landscape {
   padding: 30px;
   margin-top:10px;
+  margin-left: 50px;
   float: left;
 }
 
-
 .aboutlan {
   padding: 15px 20px;
-
   max-width:390px;
   margin-top:73px;
-  margin-left:480px;
+  margin-left:530px;
   margin-right: 50px;
   font-size: 22px;
   font-family: "Gill Sans" sans-serif;
   background:#CEE3F6;
-
 }
 
 .aboutlan span {
   font-size: 50px;
   font-weight: 400;
-
 }
-
-
 
 #animal {
   padding: 30px;
   float: left;
   clear: left;
+  margin-left: 50px;
 }
 
 .aboutani {
@@ -506,21 +457,17 @@ font-weight: 400;
   padding-top:15px;
   max-width:390px;
   margin-top:66px;
-  margin-left:480px;
+  margin-left:530px;
   margin-right: 50px;
   font-size: 22px;
   font-family: "Gill Sans" sans-serif;
   background:#CEE3F6;
-
 }
 
 .aboutani span {
   font-size: 50px;
   font-weight: 400;
-
 }
-
-
 
 #pdf1 {
   color: rgb(212,51,55);
@@ -540,7 +487,6 @@ footer{
   margin-left: 900px;
   margin-bottom: 50px;
 }
-
 
 .print{
   clear: both;
