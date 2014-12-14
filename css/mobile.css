@@ -333,10 +333,7 @@ body#paintings {
   margin-top: 50px;
   margin-left: 0px;
   display: inline-block;
-
 }
-
-
 
 .gopai {
   background: rgb(126,191,247);
@@ -399,8 +396,9 @@ body#paintings {
 }
 
 #por1 {
-  padding-left: 50px;
+  padding-left: 0px;
   float: none;
+  width: 270px;
 }
 
 
@@ -423,11 +421,10 @@ body#paintings {
 }
 
 
-
-
 #por2, #por3, #por4, #por5, #por6 {
-  padding-left: 50px;
+  padding-left: 0px;
   padding-top: 30px;
+  width: 270px;
 }
 
 #por2 {
@@ -436,13 +433,12 @@ body#paintings {
 
 #por4 {
   float: left;
-
 }
 
 
 
 #landscape {
-  padding-left: 45px;
+  margin-left: 15px;
   float: none;
   clear: both;
   width: 90%;
@@ -462,7 +458,7 @@ body#paintings {
 }
 
 #animal {
-  padding-left: 45px;
+  margin-left: 15px;
   float: none;
   width: 90%;
   height: auto;
